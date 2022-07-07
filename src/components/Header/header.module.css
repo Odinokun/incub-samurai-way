@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  padding: 10px;
+  grid-area: header;
+  align-items: center;
+  background-color: var(--main-bg-color);
+}
+
+.logo {
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.logo img {
+  display: block;
+  width: 100%;
+}
