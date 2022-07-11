@@ -1,10 +1,10 @@
 import s from "./aside.module.css"
 
-import React from "react";
+import React, {FC} from "react";
 
 type PropsType = {}
 
-export const Aside: React.FC<PropsType> = () => {
+export const Aside: FC<PropsType> = (props) => {
   return (
     <aside className={s.aside}>
       <nav>

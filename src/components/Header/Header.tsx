@@ -1,8 +1,10 @@
 import s from "./header.module.css"
 
-import React from "react";
+import React, {FC} from "react";
 
-export const Header = () => {
+type PropsType = {}
+
+export const Header: FC<PropsType> = (props) => {
   return (
     <header className={s.header}>
       <div className={s.logo}>
