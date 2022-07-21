@@ -1,9 +1,10 @@
 import React, {FC} from 'react';
+import s from './message.module.css';
 
-type PropsType = {};
+import {MessageType} from '../../../redux/state';
 
-export const Message: FC<PropsType> = (props) => {
+export const Message: FC<MessageType> = (props) => {
   return (
-    <h1>Message</h1>
+    <li className={s.messages__item}>{props.message}</li>
   )
 }
