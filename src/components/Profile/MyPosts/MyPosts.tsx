@@ -13,7 +13,7 @@ export const MyPosts: FC<PropsType> = (props) => {
 
   return (
     <div>
-      My posts
+      <h1>My posts</h1>
 
       <div>
         <textarea></textarea>
